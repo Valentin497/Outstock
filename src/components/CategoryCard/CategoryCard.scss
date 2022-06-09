@@ -1,0 +1,9 @@
+.card-group-categories > .card {
+    max-width: clamp(250px, 20vw, 320px)
+}
+
+.card-group-categories {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}

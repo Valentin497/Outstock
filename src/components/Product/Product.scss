@@ -1,0 +1,23 @@
+.fixed-width-card {
+  box-shadow: -1px 3px 5px 0px rgba(0, 0, 0, 0.1);
+
+  img {
+    max-height: 380px;
+  }
+}
+
+.basis20 {
+  flex-basis: 20%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .basis20 {
+    // fixed-with-card -----> basis20
+    flex-basis: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+}

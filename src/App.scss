@@ -1,0 +1,16 @@
+.App {
+    width: 100%;
+    margin: 0;
+    background: white;
+    padding-inline: 0 !important;
+}
+
+.mobile-only {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile-only {
+        display: block;
+    }
+}

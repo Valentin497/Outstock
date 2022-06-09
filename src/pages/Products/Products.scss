@@ -1,0 +1,33 @@
+.products-content {
+  width: 100%;
+  padding-inline: clamp(1rem, 7%, 8rem);
+  padding-block: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.category-item {
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+.category-active {
+  color: #380dfd;
+}
+
+.form-lw {
+  max-width: 20rem;
+}
+
+@media only screen and (max-width: 643px) {
+  .form-lw {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .products-container {
+    justify-content: center !important;
+  }
+}
